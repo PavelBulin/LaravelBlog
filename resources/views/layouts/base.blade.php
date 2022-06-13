@@ -11,7 +11,10 @@
     <style>
         .container { max-width: 720px; }
         .required:after { content: '*'; color: red; }
-        .font {font-family: "Miama Nueva";}
+        .font {
+          font-family: "Miama Nueva";
+          @font-face: "Miama Nueva";
+        }
     </style>
 </head>
 <body>
