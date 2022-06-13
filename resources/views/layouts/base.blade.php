@@ -11,10 +11,11 @@
     <style>
         .container { max-width: 720px; }
         .required:after { content: '*'; color: red; }
-        .font {
+        @font-face {
           font-family: "Miama Nueva";
-          @font-face: "Miama Nueva";
+          src: url("https://www.cy05834.tmweb.ru/ofont.ru_Miama Nueva.ttf");
         }
+        .font { font-family: "Miama Nueva"; }
     </style>
 </head>
 <body>
